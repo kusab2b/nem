@@ -1,0 +1,219 @@
+﻿*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: poppin;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+
+.container-fluid{
+    background-color: #F0F2F5;
+    padding: 0;
+}
+.header{
+    display: flex;
+    margin-left: 58px;
+    padding-top: 40px;
+    column-gap: 300px;
+}
+.send2{
+    display: flex;
+    column-gap: 11px;
+}
+.group433{
+    width: 29px;
+    height: 29px;
+}
+.loog{
+    font-size: 16px;
+    font-family: inter;
+}
+.signup{
+    display: flex;
+    align-items: baseline;
+    column-gap: 10px;
+}
+.account{
+    font-size: 14px;
+    font-family: poppin;
+}
+.sign{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: poppin;
+    color: #20DC49;
+}
+.details{
+    width: 400px;
+    height: 500px;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+.welcome{
+    font-size: 36px;
+    font-family: poppin;
+    text-align: center;
+}
+.login{
+    font-size: 18px;
+    font-family: poppin;
+    text-align: center;
+}
+.btn1{
+    width: 126px;
+    border-radius: 5px;
+    align-items: baseline;
+    background: #ffffff;
+}
+.btn2{
+    width: 126px;
+    border-radius: 5px;
+    align-items: baseline;
+    background-color: #FFFFFF;
+}
+.googl{
+    font-size: 12px;
+    font-family: poppin;
+}
+.faceb{
+    font-size: 12px;
+    font-family: poppin;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.text{
+    font-size: 13px;
+    font-family: poppin;
+    text-align: center;
+    margin-top: 36px;
+}
+.form-control{
+    border-radius: 5px;
+    
+}
+.code8{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 8px;
+    transform: translate(-20%, -40%);
+}
+input[type="checkbox"]
+    {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background:#C9C9C9;
+    border-radius: 20px;
+    transition: 1s ;
+   
+}
+input:checked[type="checkbox"]
+{
+    background:blue;
+}
+input[type="checkbox"]:before
+{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    top: 2px;
+    background: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba( blue);
+    transition: 5s;
+}
+input:checked[type="checkbox"]:before
+{
+   left: 23px;
+    top: 2px;
+}
+
+.form-control::-webkit-input-placeholder{
+    font-size: 14px;
+    font-family: poppin;
+}
+.recover{
+    font-size: 14px;
+    font-family: poppin;
+    color: #D93F21;
+}
+.recover{
+    margin-left: 265px;
+    margin-top: 10px;
+}
+.btn3{
+    width: 397px;
+    height: 40px;
+    background-color: transparent;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #5A5A5A;
+}
+.sales{
+    width: 460px;
+    height: 100%dvh;
+    margin-left: auto;
+    background-image: url(pics/linkedin-sales-solutions-B_DJO2-K22M-unsplash\ 1.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    
+}
+.ellipse{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    background-color: #20DC4961;
+    filter: blur(100px);
+    top: 380px;
+    left: 700px;
+    z-index: 1;
+}
+.rectange2{
+    width: 170px;
+    height: 40px;
+    display: flex;
+    column-gap: 5px;
+    border-radius: 10px;
+    background-color: #20DC49;
+    padding-top: 10px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.thumbs{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    
+}
+.stock{
+    font-size: 10px;
+}
+.rectange27{
+    width: 400px;
+    height: 170px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #FFF2F2;
+    margin-left: 30px;
+    margin-top: 430px;
+    z-index: 2;
+   
+}
+.solution{
+    width: 330px;
+    font-family: poppin;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 10px;
+}
